@@ -1,0 +1,13 @@
+.projects-container{
+    display:flex;
+    justify-content: space-evenly;
+   height:auto;
+   width:auto;
+}
+.project-card{
+    width:40%;
+}
+img{
+    width:80%;
+    height:100%;
+}
