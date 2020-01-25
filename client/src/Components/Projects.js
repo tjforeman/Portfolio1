@@ -5,27 +5,27 @@ const Projects = () => {
 return(
 <div className = 'projects-container'>
 <div className = 'project-card'>
-<h2>Title: Handy-App </h2>
-<h2>Role: Full Stack Developer </h2>
+<h2>Handy-App </h2>
+<h2>Full Stack Developer </h2>
 <img className = 'project-img' src={require('../img/handy.png')}/>
 <p>Description: </p>
 </div>
 <div className = 'project-card'>
-<h2>Title: Brav </h2>
-<h2>Role: Team Lead </h2>
+<h2>Brav </h2>
+<h2>Team Lead </h2>
 <img className = 'project-img' src={require('../img/brav.png')} />
 <p>Description: </p>
 </div>
 <div className = 'project-card'>
-<h2>Title: Grantlify </h2>
-<h2>Role: Team Lead </h2>
+<h2>Grantlify </h2>
+<h2>Team Lead </h2>
 <img className = 'project-img' src={require('../img/grantlify.png')} />
 <p>Description: </p>
 </div>
 <div className = 'project-card'>
-<h2>Title: Labby </h2>
-<h2>Role: Team Lead </h2>
-<img />
+<h2>Labby </h2>
+<h2>Team Lead </h2>
+<img className = 'project-img' src={require('../img/labby.png')}/>
 <p>Description: </p>
 </div>
 </div>)
