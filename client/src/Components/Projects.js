@@ -19,7 +19,7 @@ return(
 </div>
 <div className = 'project-card'>
 <h2>Grantlify </h2>
-<h5>descriptionTeam Lead | ReactJS, Nodejs, Firebase Authentication, PostgreSQL, Material-UI </h5>
+<h5>Team Lead | ReactJS, Nodejs, Firebase Authentication, PostgreSQL, Material-UI </h5>
 <img className = 'project-img' src={require('../img/grantlify.png')} />
 <p>Searching for grants can be a tough task. Grantlify attempts to take the pressure off of both grant seekers and grant providers by giving them a place to post and apply for grants. Grants can easily be searched for, and filtered based on a wide variety of options. Grant providers can post grants along with all of their requirements and information, and grant seekers can easily apply to them, either with a redirect or a quick questionnaire that gives the provider more information. Grant providers can even choose the applicant they like best, and approve them to receive the grant off app. </p>
 </div>
