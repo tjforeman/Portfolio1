@@ -1,10 +1,9 @@
 .projects-container{
-    display:flex;
-    justify-content: space-evenly;
-   height:auto;
-   width:auto;
+//    display:flex;
+//    flex-direction:column;
+
    img{
-    width:80%;
+    width:90%;
     height:100%;
 }
 @media (max-width:700px){
@@ -14,7 +13,31 @@
 }
 .project-card{
     width:40%;
+    height:150%;
     @media (max-width:700px){
+        width:100%;
+    }
+}
+
+.line-1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+    @media (max-width:700px){
+        flex-direction:column;
+        width:100%;
+    }
+}
+.line-2{
+    height:auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    flex-shrink: 0;
+    overflow: inherit;
+    @media (max-width:700px){
+        flex-direction:column;
         width:100%;
     }
 }
