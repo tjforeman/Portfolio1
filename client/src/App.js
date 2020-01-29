@@ -6,6 +6,8 @@ import Projects from './Components/Projects'
 function App() {
   return (
     <div className="App">
+      <img src={require('./img/logo.png')} />
+      <h2>Full Stack Web Developer</h2>
       <Navigation />
       <Banner />
       <Projects />

@@ -1,6 +1,13 @@
 .projects-container{
 //    display:flex;
 //    flex-direction:column;
+    background-color: white; 
+    width:80%;
+    margin-left:10%;
+    color:black; 
+    @media (max-width:700px){
+        margin-left:0
+    }  
 
    img{
     width:90%;
