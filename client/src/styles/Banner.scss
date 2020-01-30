@@ -6,19 +6,20 @@
     margin-left:10%;
     border-bottom: 1px solid gray;
     padding-bottom:5%;
-    @media (max-width:700px){
+    @media (max-width:800px){
         margin-left:0
     }
     .icon1{
         margin-right:2%;
     }
     p{
-        width:40%;
-        font-size: 1.4em;
+        width:30%;
+        font-size: 1.7em;
+        // line-height: 1.5rem;
         // margin-left:20%;
-        @media (max-width:700px){
+        @media (max-width:800px){
             width:80%;
-            font-size:1.2em;
+            font-size:1em;
         }
     }
     a{
@@ -31,12 +32,15 @@
         align-items: center;
         .profile-pic{
             height:15%;
-            width:15%;
-            @media (max-width:700px){
+            width:20%;
+            @media (max-width:1200px){
+                width:40%
+            }
+            @media (max-width:800px){
                 width:50%
             }
         }
-        @media (max-width:700px){
+        @media (max-width:800px){
             flex-direction: column-reverse;
         }
 
@@ -50,12 +54,12 @@
         margin-top:2%;
         border-radius:5%;
         overflow: hidden;
-        @media (max-width:700px){
+        @media (max-width:800px){
             height:200px;
             width:200px;
         }
     }
-    @media (max-width:700px){
+    @media (max-width:800px){
         width:100%;
         flex-direction: column;
         
