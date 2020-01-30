@@ -14,11 +14,11 @@
     }
     p{
         width:30%;
-        font-size: 1.7em;
+        font-size: 1.5em;
         // line-height: 1.5rem;
         // margin-left:20%;
         @media (max-width:1200px){
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
         @media (max-width:800px){
             width:80%;
@@ -36,6 +36,9 @@
         .profile-pic{
             height:15%;
             width:20%;
+            @media (max-width:1400px){
+                width:30%
+            }
             @media (max-width:1200px){
                 width:30%
             }
