@@ -2,6 +2,7 @@
   text-align: center;
   background-color: black;
   color:white;
+  margin-bottom:5%;
 .logo{
   @media (max-width:800px){
     width:70%;
@@ -37,4 +38,9 @@
   background-color:white;
   width:80%;
   margin-left:10%;
+  @media (max-width:800px){
+    width:100%;
+    margin-left:0;
+
+}
 }
