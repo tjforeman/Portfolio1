@@ -11,7 +11,7 @@ return(
     <p>My Skills</p>
     <div className = 'icons'>
     <div className = 'icon-card'>
-    <FontAwesomeIcon className='icon1' icon={faJs} size="8x" color = 'black'/>
+    <FontAwesomeIcon className='js' icon={faJs} size="8x" color = 'black'/>
     <p>JavaScript</p>
     </div>
     <div className = 'icon-card'>
