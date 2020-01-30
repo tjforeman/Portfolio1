@@ -17,6 +17,9 @@
         font-size: 1.7em;
         // line-height: 1.5rem;
         // margin-left:20%;
+        @media (max-width:1200px){
+            font-size: 1.4em;
+        }
         @media (max-width:800px){
             width:80%;
             font-size:1em;
@@ -34,7 +37,7 @@
             height:15%;
             width:20%;
             @media (max-width:1200px){
-                width:40%
+                width:30%
             }
             @media (max-width:800px){
                 width:50%
