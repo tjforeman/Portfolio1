@@ -2,6 +2,12 @@
   text-align: center;
   background-color: black;
   color:white;
+.logo{
+  @media (max-width:700px){
+    width:70%;
+
+}
+}
 }
 
 .App-logo {

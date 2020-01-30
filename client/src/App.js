@@ -10,7 +10,7 @@ import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function App() {
   return (
     <div className="App">
-      <img src={require('./img/logo.png')} />
+      <img className = 'logo' src={require('./img/logo.png')} />
       <h2>Full Stack Web Developer</h2>
       <div className = 'icons' >
       <a href = 'https://www.github.com/tjforeman/'><FontAwesomeIcon className='icon1' icon={faGithub} size="3x" /></a> 
