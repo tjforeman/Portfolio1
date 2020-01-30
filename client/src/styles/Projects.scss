@@ -1,10 +1,11 @@
 .projects-container{
     background-color: white; 
-    width:80%;
-    margin-left:10%;
+    // width:80%;
+    // margin-left:10%;
     color:black; 
     padding-bottom:3%;
-    border-bottom:8px solid gray;
+    border-bottom:1px solid gray;
+    margin-bottom:0;
     @media (max-width:800px){
         margin-left:0
     }
@@ -57,4 +58,8 @@
         flex-direction:column;
         width:100%;
     }
+}
+
+.project-title{
+    font-size: 1.5em;
 }

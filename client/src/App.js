@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation'
 import Banner from './Components/Banner'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Skills from './Components/Skills'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -16,10 +17,13 @@ function App() {
       <a href = 'https://www.github.com/tjforeman/'><FontAwesomeIcon className='icon1' icon={faGithub} size="3x" /></a> 
         <a href = 'https://www.linkedin.com/in/tylerforeman1/'><FontAwesomeIcon icon={faLinkedin} size="3x"  /></a>
         </div>
+      <div className = 'component-wrapper'>
       <Navigation />
       <Banner />
       <Projects />
+      <Skills />
       <Contact />
+      </div>
     </div>
   );
 }

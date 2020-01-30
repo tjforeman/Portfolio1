@@ -4,6 +4,7 @@ import '../styles/Projects.scss'
 const Projects = () => {
 return(
 <div name='projects' className = 'projects-container'>
+<p className = 'project-title'>My Projects</p>
 <div className = 'line-1'>
 <div className = 'project-card'>
 <h2>Handy-App - Connecting contractors and homeowners to get work done. </h2>
