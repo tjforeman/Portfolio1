@@ -13,11 +13,8 @@
     a{
       margin-left: 5%;
       color:black;
-      text-decoration: none;
+      text-decoration: underline;
       font-size: 1.4em;
-      @media (max-width:800px){
-       text-decoration: underline;
-    }
     }  
 
    img{

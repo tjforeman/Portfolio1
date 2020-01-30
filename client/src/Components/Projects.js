@@ -12,7 +12,7 @@ return(
 <p>ReactJS, NodeJS, Redux, PostgresSQL, Auth0, Stripe Connect, Clouninary, Material-UI</p>
 <img className = 'project-img' src={require('../img/handy.png')}/>
 <div className = 'links'>
-<a href='https://handyapp.netlify.com/'>See the product</a>
+<a href='https://handyapp.netlify.com/'>See the Product</a>
 <a href = 'https://github.com/labs13-handy-app'>See the Code</a>
 </div>
 </div>
