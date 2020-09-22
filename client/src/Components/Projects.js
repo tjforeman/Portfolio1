@@ -3,16 +3,20 @@ import mixpanel from "../Helpers/mixpanel";
 import "../styles/Projects.scss";
 
 const Projects = () => {
-  const viewedHandyApp = () => {
+  const viewedHandyApp = (e) => {
+    e.preventDefault();
     mixpanel.track("Viewed Handy-App");
   };
-  const viwedBrav = () => {
+  const viwedBrav = (e) => {
+    e.preventDefault();
     mixpanel.track("Viewed Brav");
   };
-  const viewedGrantlify = () => {
+  const viewedGrantlify = (e) => {
+    e.preventDefault();
     mixpanel.track("Viewed Grantlify");
   };
-  const viewedLabby = () => {
+  const viewedLabby = (e) => {
+    e.preventDefault();
     mixpanel.track("Viewed Labby");
   };
   return (
