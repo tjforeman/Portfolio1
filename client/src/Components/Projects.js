@@ -3,20 +3,16 @@ import mixpanel from "../Helpers/mixpanel";
 import "../styles/Projects.scss";
 
 const Projects = () => {
-  const viewedHandyApp = (e) => {
-    e.preventDefault();
+  const viewedHandyApp = () => {
     mixpanel.track("Viewed Handy-App");
   };
-  const viwedBrav = (e) => {
-    e.preventDefault();
+  const viwedBrav = () => {
     mixpanel.track("Viewed Brav");
   };
-  const viewedGrantlify = (e) => {
-    e.preventDefault();
+  const viewedGrantlify = () => {
     mixpanel.track("Viewed Grantlify");
   };
-  const viewedLabby = (e) => {
-    e.preventDefault();
+  const viewedLabby = () => {
     mixpanel.track("Viewed Labby");
   };
   return (
@@ -33,12 +29,18 @@ const Projects = () => {
           </p>
           <img className="project-img" src={require("../img/handy.png")} />
           <div className="links">
-            <a href="https://handyapp.netlify.com/" onClick={viewedHandyApp()}>
+            <a
+              target="_blank"
+              href="https://handyapp.netlify.com/"
+              onClick={viewedHandyApp}
+              onClick={console.log("this")}
+            >
               See the Product
             </a>
             <a
+              target="_blank"
               href="https://github.com/labs13-handy-app"
-              onClick={viewedHandyApp()}
+              onClick={viewedHandyApp}
             >
               See the Code
             </a>
@@ -54,10 +56,18 @@ const Projects = () => {
           </p>
           <img className="project-img" src={require("../img/brav.png")} />
           <div className="links">
-            <a href="https://www.beabravone.com/" onClick={viwedBrav()}>
+            <a
+              target="_blank"
+              href="https://www.beabravone.com/"
+              onClick={viwedBrav}
+            >
               See the Product
             </a>
-            <a href="https://github.com/labs14-brav" onClick={viwedBrav()}>
+            <a
+              target="_blank"
+              href="https://github.com/labs14-brav"
+              onClick={viwedBrav}
+            >
               See the Code
             </a>
           </div>
@@ -75,12 +85,17 @@ const Projects = () => {
           </p>
           <img className="project-img" src={require("../img/grantlify.png")} />
           <div className="links">
-            <a href="https://www.grantlify.com/" onClick={viewedGrantlify()}>
+            <a
+              target="_blank"
+              href="https://www.grantlify.com/"
+              onClick={viewedGrantlify}
+            >
               See the Product
             </a>
             <a
+              target="_blank"
               href="https://github.com/tjforeman/startup-grant-database-pt5-fe"
-              onClick={viewedGrantlify()}
+              onClick={viewedGrantlify}
             >
               {" "}
               See the Code
@@ -95,13 +110,18 @@ const Projects = () => {
           </p>
           <img className="project-img" src={require("../img/labby.png")} />
           <div className="links">
-            <a href="https://lambdalabby.com/" onClick={viewedLabby()}>
+            <a
+              target="_blank"
+              href="https://lambdalabby.com/"
+              onClick={viewedLabby}
+            >
               {" "}
               See the Product
             </a>
             <a
+              target="_blank"
               href="https://github.com/Lambda-School-Labs/labby-be"
-              onClick={viewedLabby()}
+              onClick={viewedLabby}
             >
               See the Code
             </a>
