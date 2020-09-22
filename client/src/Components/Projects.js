@@ -27,18 +27,23 @@ const Projects = () => {
             ReactJS, NodeJS, Redux, PostgresSQL, Auth0, Stripe Connect,
             Clouninary, Material-UI
           </p>
-          <img className="project-img" src={require("../img/handy.png")} />
+          <img
+            className="project-img"
+            alt="handy-app"
+            src={require("../img/handy.png")}
+          />
           <div className="links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://handyapp.netlify.com/"
               onClick={viewedHandyApp}
-              onClick={console.log("this")}
             >
               See the Product
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/labs13-handy-app"
               onClick={viewedHandyApp}
             >
@@ -54,10 +59,15 @@ const Projects = () => {
             ReactJS, NodeJS, Stripe Connect, PostgresSQL, Firebase Auth and
             Storage, Material-UI
           </p>
-          <img className="project-img" src={require("../img/brav.png")} />
+          <img
+            className="project-img"
+            alt="brav"
+            src={require("../img/brav.png")}
+          />
           <div className="links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.beabravone.com/"
               onClick={viwedBrav}
             >
@@ -65,6 +75,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/labs14-brav"
               onClick={viwedBrav}
             >
@@ -83,10 +94,15 @@ const Projects = () => {
             {" "}
             ReactJS, Nodejs, Firebase Authentication, PostgreSQL, Material-UI{" "}
           </p>
-          <img className="project-img" src={require("../img/grantlify.png")} />
+          <img
+            className="project-img"
+            alt="grantlify"
+            src={require("../img/grantlify.png")}
+          />
           <div className="links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.grantlify.com/"
               onClick={viewedGrantlify}
             >
@@ -94,6 +110,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/tjforeman/startup-grant-database-pt5-fe"
               onClick={viewedGrantlify}
             >
@@ -108,10 +125,15 @@ const Projects = () => {
             AWS Lex, AWS RDS, AWS Lambda, AWS api gateway, AWS s3-bucket,
             PostgresSQL
           </p>
-          <img className="project-img" src={require("../img/labby.png")} />
+          <img
+            className="project-img"
+            alt="labby"
+            src={require("../img/labby.png")}
+          />
           <div className="links">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://lambdalabby.com/"
               onClick={viewedLabby}
             >
@@ -120,6 +142,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Lambda-School-Labs/labby-be"
               onClick={viewedLabby}
             >
