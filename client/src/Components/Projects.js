@@ -134,7 +134,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://lambdalabby.com/"
+              href="https://labby.netlify.app/"
               onClick={viewedLabby}
             >
               {" "}
