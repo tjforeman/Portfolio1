@@ -68,7 +68,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.beabravone.com/"
+              href="https://brav.netlify.app/"
               onClick={viwedBrav}
             >
               See the Product
@@ -103,7 +103,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.grantlify.com/"
+              href="https://grantify.netlify.app/"
               onClick={viewedGrantlify}
             >
               See the Product
